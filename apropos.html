@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>À propos – Morgane Blasi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="menu">
+        <a href="index.html" class="menu-link">Accueil</a>
+        <a href="apropos.html" class="menu-link active">À propos</a>
+        <a href="projet.html" class="menu-link">Projets</a>
+        <a href="contact.html" class="menu-link">Me contacter</a>
+    </nav>
+
+    <!-- ================== CADRE BLANC ================== -->
+    <div class="frame">
+
+        <section class="apropos">
+            <div class="apropos-title">
+                <h1>À PROPOS DE MOI</h1>
+            </div>
+
+            <div class="apropos-content">
+                <div class="apropos-text left">
+                    <h2><span>BONJOUR !</span></h2>
+                    <p>
+                        Moi, c’est Morgane Blasi, j’ai 19 ans et je suis étudiante en première année de BUT MMi (Métiers
+                        du Multimédia et de l’Internet) à Arles..
+                    </p>
+                    <p>
+                        Je suis sérieuse, investie et curieuse, se qui me permet de développer ma créativité dans tout
+                        type de projet. </p>
+                </div>
+
+                <div class="apropos-image">
+                    <img src="img/portrait.jpg" alt="">
+                </div>
+
+                <div class="apropos-text right">
+                    <p>
+                        Passionée depuis toujours d’art et d’audiovisuel, je suis ravie de partager mon univers et mon
+                        travail avec vous !
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    </div>
+</body>
+<!-- ================== FIN CADRE BLANC ================== -->
+
+<!-- ================== FOND NOIR ================== -->
+<div class="dark-section">
+
+    <section class="formations">
+        <h2 class="formations-title">MES FORMATIONS</h2>
+
+        <div class="formations-list">
+            <div class="formation-card">
+                <span class="formation-year">2024</span>
+                <h3>Baccalauréat Général</h3>
+                <p>Arts Plastiques & Mathématiques</p>
+                <strong>Mention Bien</strong>
+            </div>
+
+            <div class="formation-card">
+                <span class="formation-year">2024 – 2028</span>
+                <h3>BUT MMI</h3>
+                <p>Métiers du Multimédia et de l’Internet</p>
+                <strong>Création numérique</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="orbit-section">
+
+        <div class="orbit-container">
+
+           
+                
+<div class="orbit-center" id="toggleOrbit">
+
+  <div class="interest-bubble">
+    <h3>Centres d’intérêt</h3>
+    <p>Clique pour découvrir</p>
+  </div>
+
+</div>
+
+
+            <!-- ÉLÉMENTS AUTOUR -->
+
+            <div class="orbit-item item-1 hidden">
+                <img src="img/photo.png" alt="">
+                <p>Photographie</p>
+            </div>
+
+            <div class="orbit-item item-2 hidden">
+                <img src="img/danse.png" alt="">
+                <p>Danse</p>
+            </div>
+            <div class="orbit-item item-3 hidden">
+                <img src="img/dessin.png" alt="">
+                <p>Dessin</p>
+            </div>
+
+
+        </div>
+</div>
+</section>
+</section>
+
+
+
+<!-- ================== FIN FOND NOIR ================== -->
+
+
+<script>
+    const paper = document.getElementById("toggleOrbit");
+    const items = document.querySelectorAll(".orbit-item");
+
+    paper.addEventListener("click", () => {
+        items.forEach(item => {
+            item.classList.toggle("hidden");
+        });
+    });
+</script>
+
+
+<section class="moodboard-section">
+
+  <h2 class="moodboard-title">MOODBOARD</h2>
+
+  <img 
+    src="img/moodboard.png" 
+    alt="Moodboard d’inspirations artistiques"
+    class="moodboard-image"
+  >
+
+</section>
+<button id="backToTop" aria-label="Retour en haut">
+  ↑
+</button>
+<script>
+  const backToTop = document.getElementById("backToTop");
+
+  // Afficher le bouton quand on scroll
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 400) {
+      backToTop.style.display = "block";
+    } else {
+      backToTop.style.display = "none";
+    }
+  });
+
+  // Remonter en haut au clic
+  backToTop.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
+
+</body>
+<footer class="footer">
+    © 2026 · Morgane Blasi
+</footer>
+
+</html>

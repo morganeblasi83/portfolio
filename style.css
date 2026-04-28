@@ -1,0 +1,1199 @@
+/* RESET PROPRE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    /* ✅ À DROITE */
+    align-items: center;
+    gap: 16px;
+
+    margin: 0;
+    padding: 15px 40px 10px;
+    /* léger, propre */
+}
+
+
+
+.menu-link {
+    background: #f2eee9;
+    color: #000000;
+    padding: 12px 26px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.menu-link:hover {
+    background: #e04882;
+}
+
+
+.menu-link.active {
+    background: #e84a8a;
+}
+
+/* MENU — même police partout */
+.menu,
+.menu-link {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    position: relative;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+}
+
+.hero-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* BADGE */
+.badge-container {
+    margin-top: -26px;
+    position: relative;
+    z-index: 2;
+}
+
+.badge {
+    width: 65%;
+    margin-left: 18%;
+}
+
+/* TITRES */
+.title {
+    margin-top: -10%;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 120px;
+    line-height: 1;
+}
+
+.title h2 {
+    font-size: 36px;
+    margin-top: -12px;
+}
+
+/* PAGE A PROPOS */
+.apropos {
+    padding: 80px;
+
+}
+
+.apropos-title {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-bottom: 80px;
+    margin-top: -10px;
+}
+
+.apropos-title h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+}
+
+/* CONTENU */
+.apropos-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.apropos-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* BONJOUR */
+.apropos-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.apropos-text h2 span {
+    color: #e84a8a;
+}
+
+/* IMAGE */
+.apropos-image img {
+    width: 100%;
+    max-width: 260px;
+    display: block;
+    margin: auto;
+}
+
+h1,
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact {
+    padding: 20px 80px 0;
+}
+
+.contact-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 80px;
+}
+
+/* PHOTO */
+.contact-photo img {
+    max-width: 320px;
+    display: block;
+}
+
+/* CAMERA */
+.camera-img {
+    width: 520px;
+    display: block;
+}
+
+/* MERCI */
+.merci {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 32px;
+    color: #e84a8a;
+}
+
+
+
+.footer {
+    height: 80px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+
+
+
+.contact {
+    padding: 20px 80px 10px;
+}
+
+
+
+.contact h1,
+.contact-title {
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+}
+
+/* FORMATIONS */
+.formations {
+    padding: 80px;
+    background: #000000;
+}
+
+.formations-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+
+/* LISTE */
+.formations-list {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* CARTE */
+.formation-card {
+    background: #ffffff !important;
+    color: #000000;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formation-year {
+    background: #e84a8a;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 999px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.formation-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.formation-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.interets {
+    padding: 80px;
+    background: #000000;
+    color: #ffffff;
+}
+
+.interets-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+/* LISTE */
+.interets-list {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* CARTE */
+.interet-card {
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.interet-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.interet-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.interet-card p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.dark-section {
+    background: #000;
+
+    padding: 80px;
+}
+
+.dark-section .formation-card {
+    background: #111;
+}
+
+
+.dark-section {
+    background: #000;
+}
+
+/* CACHE */
+.hidden {
+    display: none;
+}
+
+.orbit-item {
+    color: #ffffff;
+
+}
+
+.orbit-item {
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+}
+
+.item-1 {
+    animation-delay: 0.2s;
+}
+
+.item-2 {
+    animation-delay: 0.4s;
+}
+
+.item-3 {
+    animation-delay: 0.6s;
+}
+
+.item-4 {
+    animation-delay: 0.8s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.orbit-item {
+  position: absolute;
+  background: #000000;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 20px;
+  white-space: nowrap;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  z-index: 5;
+}
+
+/* POSITIONS AUTOUR DE LA BULLE */
+.item-1 {
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.item-2 {
+  right: -160px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.item-3 {
+  bottom: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.item-4 {
+  left: -160px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/* IMAGE DANS LES ITEMS */
+.orbit-item img {
+    
+    object-fit: cover;
+    
+   
+}
+
+/* TEXTE */
+.orbit-item p {
+    font-size: 14px;
+}
+
+.orbit-item p {
+    font-size: 14px;
+}
+
+
+
+
+.orbit-item img {
+    width: 100px;
+    height: 110px;
+    
+object-fit: contain;   /* ✅ image entière */
+  
+
+  
+    
+   
+    transform: rotate(-3deg);
+}
+
+.item-2 img {
+    transform: rotate(4deg);
+}
+
+.item-3 img {
+    transform: rotate(-6deg);
+}
+
+
+
+
+.item-2 img {
+    transform: rotate(4deg);
+}
+
+.item-3 img {
+    transform: rotate(-6deg);
+}
+
+.orbit-section {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+
+.orbit-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+    background: #000;
+}
+
+
+
+.orbit-container {
+  position: relative;
+  width: 800px;      /* ⬅️ PLUS GRAND */
+  height: 800px;
+  overflow: visible; /* 🔥 indispensable */
+}
+
+
+
+
+
+
+
+/* HAUT */
+.item-1 {
+    top: -12%;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+/* DROITE */
+.item-2 {
+    right: 85%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* BAS */
+.item-3 {
+    bottom: 36%;
+    left: 98%;
+    transform: translateX(-50%);
+    
+}
+/* ===== MOODBOARD ===== */
+.moodboard-section {
+  padding: 140px 6%;
+  background: #fff;
+  text-align: center;
+}
+
+.moodboard-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 64px;
+  margin-bottom: 80px;
+  position: relative;
+  display: inline-block;
+}
+
+/* accent rose */
+.moodboard-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 14px;
+  background: #e84a8a;
+  z-index: -1;
+}
+
+/* IMAGE MOODBOARD */
+.moodboard-image {
+  width: 100%;
+  max-width: 1200px;   /* ✅ empêche l’image d’être trop grande */
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.2);
+}
+
+/* BOUTON RETOUR EN HAUT */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  display: none; /* caché par défaut */
+  z-index: 1000;
+
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+#backToTop:hover {
+  background: #e84a8a; /* rose */
+  transform: translateY(-4px);
+}
+
+
+
+.orbit-center img {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-2deg);
+
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.5);
+
+    border-radius: 6px;
+}
+
+
+
+.orbit-item {
+    z-index: 5;
+}
+
+.orbit-center img {
+    mask-image: radial-gradient(circle at center,
+            black 60%,
+            transparent 100%);
+}
+
+
+.orbit-item {
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.orbit-item:not(.hidden) {
+    opacity: 1;
+}
+
+.orbit-item img {
+  width: 300px;      /* ⬅️ AVANT c’était ~80–90px */
+  height: auto;
+  object-fit: contain;
+}
+
+.orbit-item {
+  padding: 16px;        /* ⬅️ plus large */
+  font-size: 16px;       /* texte plus lisible */
+}
+.projects {
+  padding: 120px 8%;
+}
+
+/* PROJET = une ligne */
+.project {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 160px;
+}
+
+/* GAUCHE / DROITE */
+.project.left {
+  flex-direction: row;
+}
+
+.project.right {
+  flex-direction: row-reverse;
+}
+
+/* TEXTE */
+.project-text {
+  flex: 1;
+}
+
+.project-text h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.project-text h3 {
+  color: #e84a8a;
+  margin-bottom: 20px;
+}
+
+.project-text p {
+  max-width: 480px;
+  line-height: 1.6;
+}
+
+/* IMAGES */
+.project-media {
+  flex: 1;
+  display: flex;
+  gap: 30px;
+}
+
+.vertical-media .project-media {
+  flex-direction: column;
+}
+
+.project-media img {
+  width: 260px;
+  object-fit: contain;
+}
+.project {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s ease;
+}
+
+.project.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* PAGE PROJET DETAIL */
+.project-detail {
+  padding: 120px 8%;
+}
+
+/* TITRES */
+.project-header {
+  margin-bottom: 80px;
+}
+
+.project-category {
+  font-family: 'Anton', sans-serif;
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  color: #e84a8a;
+  font-size: 28px;
+}
+
+/* CONTENU */
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+/* TEXTE */
+.project-text p {
+  max-width: 480px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+/* IMAGES */
+.project-images {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.project-images img {
+  width: 260px;
+  object-fit: contain;
+}
+
+.project-images img:nth-child(2) {
+  margin-top: 80px;
+}
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.project-media a img {
+  transition: transform 0.3s ease;
+}
+
+
+.project-media a:hover img.aperobox {
+  transform: scale(1.5);
+}
+
+/* IMAGES DES PROJETS (liste) */
+.project-media a {
+  display: block;
+}
+
+
+.project-media img:first-child {
+  width: 320px;
+}
+
+.project-media img:last-child {
+  width: 240px;
+  align-self: flex-end; /* léger décalage stylé */
+}
+.project-media img[src*="coussins.png"] {  width: 520px;   /* ⬅️ ajuste ici */  height: auto;
+margin-right: 10%
+
+}
+
+.project-media iframe {
+  width: 100%;
+  max-width: 520px;
+  aspect-ratio: 16 / 9;
+  border: none;
+}
+
+/* DESIGN GRAPHIQUE */
+.design-graphique {
+  margin: 180px 0;
+}
+
+.project-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 72px;
+  margin-bottom: 80px;
+}
+
+
+
+.design-graphique .project-title {
+  font-family: 'Anton', sans-serif;
+  font-size: 72px;
+  margin-bottom: 80px;
+}
+/* ===== PROJET INDESIGN (CENTRAL) ===== */
+
+.design-item.central {
+  position: relative;
+  height: 800px; /* espace suffisant */
+}
+
+/* Les pages sortent du flux */
+.design-item.central img {
+  position: absolute;
+  width: 230px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+}
+
+/* Grille 3 colonnes comme la référence */
+.design-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 1fr;
+  gap: 120px;
+  align-items: start;
+}
+/* La grille doit autoriser le dépassement */
+.design-grid {
+  position: relative;
+  overflow: visible;
+}
+
+/* La colonne centrale aussi */
+.design-item.central {
+  position: relative;
+  overflow: visible;
+  z-index: 1;
+}
+
+/* Items classiques */
+.design-item img {
+  width: 240px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.design-item p {
+  margin-top: 20px;
+  max-width: 300px;
+  line-height: 1.6;
+}
+
+
+
+
+/* PROJET CENTRAL PLUS IMPORTANT */
+.design-item.central img {
+  transform: scale(1.05);
+}
+
+/* TEXTE */
+.design-item p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* BADGES LOGICIELS */
+.tool {
+  position: absolute;
+  bottom: 120px;
+  left: -16px;
+  padding: 6px 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+}
+.design-item.central,
+.design-item.central relative {
+  height: 820px;   /* ⬅️ AVANT tout était trop serré */
+}
+.design-item.central img { object-fit: contain;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.18);
+  position:absolute;
+}
+/* PAGE 1 – COUVERTURE (image principale) */
+.design-item.central img:nth-child(1) {
+  width: 260px;
+  top: 0;
+  left: 120px;
+  z-index: 3;
+}
+
+/* PAGE 2 – SOMMAIRE (derrière, à gauche) */
+.design-item.central img:nth-child(2) {
+  width: 230px;
+  top: 200px;
+  left: 0;
+  z-index: 2;
+}
+
+/* PAGE 3 – PAGE INTERIEURE (plus petite, en bas) */
+.design-item.central img:nth-child(3) {
+  width: 200px;
+  top: 430px;
+  left: 160px;
+  z-index: 1;
+}
+.design-item.central p {
+  position: relative;
+  margin-top: 680px;
+  max-width: 320px;
+  line-height: 1.6;
+}
+
+.design-item.central .tool {
+  top: 560px;
+  left: -28px;
+}
+
+
+/* Page 1 – en haut, centrée *//*.central img:nth-child(1) {
+  top: 0;
+  left: 80px;
+  z-index: 3;
+}
+
+/* Page 2 – milieu, vers la gauche */
+.design-item.central img:nth-child(2) {
+  top: 220px;
+  left: 0;
+  z-index: 2;
+}
+
+/* Page 3 – bas, vers la droite */
+.design-item.central img:nth-child(3) {
+  top: 440px;
+  left: 140px;
+  z-index: 1;
+}
+.design-item.central p {
+  position: relative;
+  margin-top: 680px;
+}
+
+.design-item.central .tool {
+  top: 560px;
+  left: -24px;
+}
+.design-item.central img {
+  position: absolute;
+  transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.design-item.central {
+  position: relative;
+  overflow: visible; /* ✅ indispensable */
+}.design-item.central:hover img {
+  opacity: 0.75;
+}
+
+.design-item.central img:hover {
+  opacity: 1;
+}
+.design-item.central img:hover {
+  transform: scale(1.08);
+  z-index: 999;              /* ✅ très élevé */
+  box-shadow: 0 40px 90px rgba(0,0,0,0.3);
+}
+
+/* IMPORTANT : forcer un nouveau contexte */
+.design-item.central img {
+  isolation: isolate;
+}
+
+
+.project-media img.aperobox {
+ 
+transform: scale(1.5) translateX(-20px);
+
+
+}
+
+
+
+.project-media {
+  overflow: visible;
+}
+/* SECTION CONTACT */
+.contact-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7; /* léger fond clair */
+}
+
+/* CARTE */
+.contact-card {
+  background: #ffffff;
+  padding: 60px 80px;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+/* TITRES */
+.contact-card h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.contact-intro {
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* INFOS */
+.contact-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ITEM CONTACT */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 14px 20px;
+  border-radius: 12px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-item img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+/* HOVER */
+.contact-item:hover {
+  background: #f2f2f2;
+  transform: translateY(-2px);
+}
+.research-btn {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 12px 26px;
+  border-radius: 999px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.research-btn:hover {
+  background: #e84a8a; /* rose */
+  transform: translateY(-2px);
+}
+/* ===== PAGE RECHERCHE ===== */
+
+.research-page {
+  padding: 120px 8%;
+  background: #fff;
+}
+
+/* HEADER */
+.research-header {
+  max-width: 700px;
+  margin-bottom: 100px;
+}
+
+.research-header h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 72px;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.research-header h2 {
+  font-size: 28px;
+  color: #e84a8a;
+  margin-bottom: 24px;
+}
+
+.research-header p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* GALERIE */
+.research-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+.research-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+/* BULLE CENTRALE */
+.interest-bubble {
+  width: 300px;
+  padding: 36px 32px;
+  background: #000000;
+  border-radius: 28px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.18);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* TITRE */
+.interest-bubble h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* TEXTE */
+.interest-bubble p {
+  font-size: 14px;
+  color: #e84a8a; /* rose */
+}
+
+/* HOVER */
+.interest-bubble:hover {
+  transform: scale(1.04);
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.25);
+}
+
+}
+
+.research-gallery img:hover {
+  transform: scale(1.05);
+}
+/* CENTRE ORBITE */
+.orbit-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;              /* ✅ AU-DESSUS des items */
+}
+
+/* BULLE */
+.interest-bubble {
+  background: #ffffff;      /* ✅ visible sur fond noir */
+  color: #000;
+  width: 320px;
+  padding: 40px 32px;
+  border-radius: 28px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.4);
+  text-align: center;
+  cursor: pointer;
+}
+.moodboard img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.moodboard img:hover {
+  transform: scale(1.05);
+}
+/* décalages subtils */
+.moodboard img:nth-child(2),
+.moodboard img:nth-child(6) {
+  transform: translateY(40px);
+}
+
+.moodboard img:nth-child(4),
+.moodboard img:nth-child(9) {
+  transform: translateY(-30px);
+}
